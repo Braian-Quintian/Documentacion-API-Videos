@@ -1,7 +1,5 @@
 # API VIDEOS DEV
 
-## Esta API se encarga de obtener los videos de los cursos de la plataforma de videos de Dev.
-
 ### Endpoints
 
 > Recuerda que solo puedes acceder desde la red interna de CP
