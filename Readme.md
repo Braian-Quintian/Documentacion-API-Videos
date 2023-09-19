@@ -40,7 +40,7 @@
   -  `numeroDeLaSeccion` (obligatorio) - Número de la sección que se desea obtener.
 
 - **Esta es la URL a la que deben acceder**: 
-    - `http://192.168.128.23:5010/cursos?course=nombreDelCurso&section=numeroDeLaSeccion`
+    - `http://192.168.128.23:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion`
     
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
