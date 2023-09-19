@@ -1,50 +1,47 @@
-# API VIDEOS DEV
+# API VIDEOS
 
-### Endpoints
 
-> Recuerda que solo puedes acceder desde la red interna de CP
 
--------
+## Endpoints
 
-#### Obtener todos los cursos
+> Recuerda que solo puedes acceder desde la red interna de Campus
 
-Para obtener todos los cursos se debe hacer una petición GET a la siguiente url:
-
-```http
-http://
-```
-
-#### Obtener un curso en especifico
+#### 1 .Obtener un curso en especifico
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
 **DETALLES DEL API**
 
-- Metodo: GET
-- Parametros: `course` (obligatorio) - Nombre del curso que se desea obtener.
-- Url: `http://192.168.128.23:5010/cursos?course=:nombreDelCurso`
-- Version: 1.0.1
+- **Metodo por el cual se solicita**:  `GET`
+- **Parametros que necesita el endpoint**: 
+  -  `course` (obligatorio) - `course` es el nombre del curso que se desea obtener.
 
-`Nota`: Recuerda que debes reemplazar el parametro `:nombreDelCurso` por el nombre del curso que deseas obtener.
+- **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos?course=nombreDelCurso`
+
+**Observacion**:  **Debes reemplazar el parametro `nombreDelCurso` por el nombre del curso que deseas obtener.**
 
 *Captura de pantalla:*
 
 ![GET-curso](./assets//img/GET-allSections.png)
 
 
-### Obtener una sección en especifico
+
+------
+
+### 2. Obtener una sección en especifico
 
 > Para visualizar todos los videos que tiene una sección en especifico:
 
 **DETALLES DEL API**
 
-- Metodo: GET
-- Parametros: `course` (obligatorio) - Nombre del curso que se desea obtener.
-- Parametros: `section` (obligatorio) - Nombre de la sección que se desea obtener.
-- Url: `//http://192.168.128.23:5010/cursos?course=:nombreDelCurso&section=:nombreDeLaSeccion`
-- Version: 1.0.0
+- **Metodo**:  `GET`
+- **Parametros que necesita el endpoint**:
+  -  `course` (obligatorio) - Nombre del curso que se desea obtener.
+  -  `section` (obligatorio) - Número de la sección que se desea obtener.
 
-`Nota`: Recuerda que debes reemplazar los parametros `:course` y `:section` por los valores que deseas obtener.
+- **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos?course=nombreDelCurso&section=numeroDeLaSeccion`
+
+**Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
 
 *Captura de pantalla:*
 
@@ -57,17 +54,18 @@ http://
 
 **DETALLES DEL API**
 
-- Metodo: GET
-- Parametros: `course` (obligatorio) - Nombre del curso que se desea obtener.
-- Parametros: `section` (obligatorio) - Nombre de la sección que se desea obtener.
-- Parametros: `video` (obligatorio) - Nombre del video que se desea obtener.
-- Url: `http://192.168.128.23:5010/:course/:section/:video`
-- Version: 1.0.0
+- **Metodo**:  `GET`
+- **Parametros que necesita el endpoint**:
+  -  `course` (obligatorio) - Nombre del curso que se desea obtener.
+  - `section` (obligatorio) - Número de la sección que se desea obtener.
+  - `video` (obligatorio) - Nombre del video que se desea obtener.
 
-`Nota`: Recuerda que debes reemplazar los parametros `:course`, `:section` y `:video` por los valores que deseas obtener.
+- **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSeccion&video=nombreDelVideo`
 
-*Captura de pantalla:*
+**Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso`, `numeroDeSeccion` y `nombreDelVideo` por los valores que deseas obtener.**
 
-![GET-video](./assets//img/GET-video.png)
 
-Observaciones: Recibiras una etiqueta `video` con el video que deseas obtener.
+
+
+## Extension que utilizo para visualizar el JSON:
+[JSON-VIEWER](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa?utm_source=ext_sidebar&hl=en-US)
