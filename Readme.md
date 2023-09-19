@@ -63,7 +63,7 @@
   - `nombreDelVideo` (obligatorio) - Nombre del video que se desea obtener.
 
 - **Esta es la URL a la que deben acceder**: 
-```http
+```js
 http://192.168.128.23:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSeccion&video=nombreDelVideo
 ```
     
