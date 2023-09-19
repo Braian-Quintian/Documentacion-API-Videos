@@ -36,10 +36,11 @@
 
 - **Metodo**:  `GET`
 - **Parametros que necesita el endpoint**:
-  -  `course` (obligatorio) - Nombre del curso que se desea obtener.
-  -  `section` (obligatorio) - Número de la sección que se desea obtener.
+  -  `nombreDelCurso` (obligatorio) - Nombre del curso que se desea obtener.
+  -  `numeroDeLaSeccion` (obligatorio) - Número de la sección que se desea obtener.
 
-- **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos?course=nombreDelCurso&section=numeroDeLaSeccion`
+- **Esta es la URL a la que deben acceder**: 
+    -`http://192.168.128.23:5010/cursos?course=nombreDelCurso&section=numeroDeLaSeccion`
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
 
@@ -56,11 +57,12 @@
 
 - **Metodo**:  `GET`
 - **Parametros que necesita el endpoint**:
-  -  `course` (obligatorio) - Nombre del curso que se desea obtener.
-  - `section` (obligatorio) - Número de la sección que se desea obtener.
-  - `video` (obligatorio) - Nombre del video que se desea obtener.
+  -  `nombreDelCurso` (obligatorio) - Nombre del curso que se desea obtener.
+  - `numeroDeSeccion` (obligatorio) - Número de la sección que se desea obtener.
+  - `nombreDelVideo` (obligatorio) - Nombre del video que se desea obtener.
 
-- **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSeccion&video=nombreDelVideo`
+- **Esta es la URL a la que deben acceder**: 
+    -`http://192.168.128.23:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSeccion&video=nombreDelVideo`
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso`, `numeroDeSeccion` y `nombreDelVideo` por los valores que deseas obtener.**
 
