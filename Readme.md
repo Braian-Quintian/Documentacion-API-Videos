@@ -14,7 +14,7 @@
 
 - **Metodo por el cual se solicita**:  `GET`
 - **Parametros que necesita el endpoint**: 
-  -  `nombreDelCurso` (obligatorio) - `cnombreDelCurso` es el nombre del curso que se desea obtener.
+  -  `nombreDelCurso` (obligatorio) - `nombreDelCurso` es el nombre del curso que se desea obtener.
 
 - **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos?course=nombreDelCurso`
 
