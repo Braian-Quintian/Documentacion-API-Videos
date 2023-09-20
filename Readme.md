@@ -5,6 +5,7 @@
 
 - react
 - docker
+- git
 
 
 ## Endpoints
