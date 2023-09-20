@@ -20,7 +20,10 @@
 - **Parametros que necesita el endpoint**: 
   -  `nombreDelCurso` (obligatorio) - `nombreDelCurso` es el nombre del curso que se desea obtener.
 
-- **Esta es la URL a la que deben acceder**: `http://192.168.128.23:5010/cursos?course=nombreDelCurso`
+- **Esta es la URL a la que deben acceder**: 
+  ```js
+  http://192.168.128.23:5010/cursos?course=nombreDelCurso
+  ```
 
 **Observacion**:  **Debes reemplazar el parametro `nombreDelCurso` por el nombre del curso que deseas obtener.**
 
@@ -44,7 +47,9 @@
   -  `numeroDeLaSeccion` (obligatorio) - Número de la sección que se desea obtener.
 
 - **Esta es la URL a la que deben acceder**: 
-    - `http://192.168.128.23:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion`
+  ```js
+  http://192.168.128.23:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion
+  ```
     
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
