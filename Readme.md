@@ -7,6 +7,7 @@
 - docker
 - git
 - nodejs
+- sql
 
 
 ## Endpoints
