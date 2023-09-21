@@ -6,6 +6,7 @@
 - react
 - docker
 - git
+- nodejs
 
 
 ## Endpoints
