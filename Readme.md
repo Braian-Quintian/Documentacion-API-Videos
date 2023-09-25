@@ -8,6 +8,7 @@
 - git
 - nodejs
 - sql
+- javascript
 
 
 ## Endpoints
