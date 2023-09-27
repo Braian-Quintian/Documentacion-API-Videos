@@ -101,7 +101,7 @@
 - **Esta es la URL a la que deben acceder**:
 
   ```js
-  http://192.168.128.23:5010/cursos/v2?course==nombreDelCurso
+  http://192.168.128.23:5010/cursos/v2?course=nombreDelCurso
   ```
 
 **Observacion**: **Debes reemplazar el parametro `nombreDelCurso` por el nombre del curso que deseas obtener.**
