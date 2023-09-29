@@ -14,9 +14,10 @@
 > Recuerda que solo puedes acceder desde la red interna de Campus
 
 <details>
-<summary>1. Obtener los títulos y los nombres para buscar los cursos</summary>
+<summary><strong>1. Obtener los títulos y los nombres para buscar los cursos</strong></summary>
 
-Para visualizar todos los cursos que hay disponibles:
+
+> Para visualizar todos los cursos que hay disponibles:
 
 **DETALLES DEL API**
 
@@ -90,7 +91,9 @@ http://192.168.128.23:5010/cursos/all
 
 </details>
 
-#### 2. Obtener un curso en especifico (Metodo Objeto)
+<details>
+<summary><strong>2. Obtener un curso en especifico (Metodo Objeto)</strong></summary>
+
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
@@ -158,6 +161,8 @@ http://192.168.128.23:5010/cursos/all
 **Captura de pantalla**
 
 ![Metodo Objeto](./assets//img/GET-seccion-Metodo-Objeto.png)
+
+</details>
 
 #### 2.1. Obtener un curso en especifico (Metodo Array)
 
