@@ -221,8 +221,6 @@ http://192.168.128.23:5010/cursos/all
 </details>
 
 <details>
-
-<details>
 <summary><strong>4. Obtener una sección en especifico (Metodo Objeto)</strong></summary>
 
 > Para visualizar todos los videos que tiene una sección en especifico:
