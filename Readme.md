@@ -16,7 +16,6 @@
 <details>
 <summary><strong>1. Obtener los títulos y los nombres para buscar los cursos</strong></summary>
 
-
 > Para visualizar todos los cursos que hay disponibles
 
 **DETALLES DEL API**
@@ -28,6 +27,7 @@
 ```js
 http://192.168.128.23:5010/cursos/all
 ```
+
 **Ejemplo JSON que recibes**
 
 ```json
@@ -78,13 +78,12 @@ http://192.168.128.23:5010/cursos/all
 - `imagenCourse` es la imagen que se muestra en la pagina
 - `duracion` es la duracion del curso en milisegundos
 
-**Nota**: Si quieres sacar la duración en minutos solo debes dividir el valor que te da entre 60.000
+**Nota**: Si quieres sacar la duración en minutos solo debes dividir el valor que te da entre `60.000`
 
 </details>
 
 <details>
 <summary><strong>2. Obtener un curso en específico (Método Objeto)</strong> :warning: Deprecated</summary>
-
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
@@ -115,21 +114,24 @@ http://192.168.128.23:5010/cursos/all
         "1": {
           "Titulo": "Introducción al curso",
           "video": "react-1-01-Introducción",
-          "links": {}
+          "links": {},
+          "duracion": 105166
         }
       },
       {
         "2": {
           "Titulo": "¿Cómo funcionará el curso?",
           "video": "react-1-02-Como_funcionara_el_curso",
-          "links": {}
+          "links": {},
+          "duracion": 211433
         }
       },
       {
         "3": {
           "Titulo": "¿Cómo hacer preguntas?",
           "video": "react-1-03-Como-hacer-preguntas",
-          "links": {}
+          "links": {},
+          "duracion": 194366
         }
       },
       {
@@ -141,7 +143,8 @@ http://192.168.128.23:5010/cursos/all
               "titulo-link": "Instalaciones necesarias",
               "link": "https://gist.github.com/Klerith/4a4abfd88a88b2d1f16efd95fea41362"
             }
-          ]
+          ],
+          "duracion": 541966
         }
       }
     ]
@@ -149,9 +152,7 @@ http://192.168.128.23:5010/cursos/all
 }
 ```
 
-**Captura de pantalla**
-
-![Metodo Objeto](./assets//img/GET-seccion-Metodo-Objeto.png)
+**Nota**: Si quieres sacar la duración en minutos solo debes dividir el valor que te da entre `60.000`
 
 </details>
 
@@ -179,44 +180,49 @@ http://192.168.128.23:5010/cursos/all
 **Ejemplo JSON que recibes**
 
 ```json
-[
-  {
-    "sectionName": "Sección 1: Introducción",
-    "videos": [
-      {
-        "Titulo": "Introducción al curso",
-        "video": "react-1-01-Introducción",
-        "Texto": ""
-      },
-      {
-        "Titulo": "¿Cómo funcionará el curso?",
-        "video": "react-1-02-Como_funcionara_el_curso",
-        "Texto": ""
-      },
-      {
-        "Titulo": "¿Cómo hacer preguntas?",
-        "video": "react-1-03-Como-hacer-preguntas",
-        "Texto": ""
-      },
-      {
-        "Titulo": "Instalaciones necesarias y recomendadas",
-        "video": "react-1-04-Instalaciones_necesarias_y_recomendadas",
-        "Texto": "",
-        "links": [
-          {
-            "titulo-link": "Instalaciones necesarias",
-            "link": "https://gist.github.com/Klerith/4a4abfd88a88b2d1f16efd95fea41362"
-          }
-        ]
-      }
-    ]
-  }
-]
+{
+  "nameCourse": "React: De cero a experto ( Hooks y MERN )",
+  "videos": [
+    {
+      "sectionName": "Sección 1: Introducción",
+      "videos": [
+        {
+          "Titulo": "Introducción al curso",
+          "video": "react-1-01-Introducción",
+          "Texto": "",
+          "duracion": 105166
+        },
+        {
+          "Titulo": "¿Cómo funcionará el curso?",
+          "video": "react-1-02-Como_funcionara_el_curso",
+          "Texto": "",
+          "duracion": 211433
+        },
+        {
+          "Titulo": "¿Cómo hacer preguntas?",
+          "video": "react-1-03-Como-hacer-preguntas",
+          "Texto": "",
+          "duracion": 194366
+        },
+        {
+          "Titulo": "Instalaciones necesarias y recomendadas",
+          "video": "react-1-04-Instalaciones_necesarias_y_recomendadas",
+          "Texto": "",
+          "duracion": 541966,
+          "links": [
+            {
+              "titulo-link": "Instalaciones necesarias",
+              "link": "https://gist.github.com/Klerith/4a4abfd88a88b2d1f16efd95fea41362"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
 ```
 
-**Captura de pantalla**
-
-![Metodo Objeto](./assets//img/GET-seccion-Metodo-Array-Object.png)
+**Nota**: Si quieres sacar la duración en minutos solo debes dividir el valor que te da entre `60.000`
 
 </details>
 
@@ -239,6 +245,7 @@ http://192.168.128.23:5010/cursos/all
   ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
+
 </details>
 
 <details>
@@ -262,6 +269,7 @@ http://192.168.128.23:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSec
 ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso`, `numeroDeSeccion` y `nombreDelVideo` por los valores que deseas obtener.**
+
 </details>
 
 ## Extension que utilizo para visualizar el JSON:
