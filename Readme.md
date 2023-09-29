@@ -17,7 +17,7 @@
 <summary><strong>1. Obtener los títulos y los nombres para buscar los cursos</strong></summary>
 
 
-> Para visualizar todos los cursos que hay disponibles:
+> Para visualizar todos los cursos que hay disponibles
 
 **DETALLES DEL API**
 
@@ -28,15 +28,6 @@
 ```js
 http://192.168.128.23:5010/cursos/all
 ```
-
-- **Metodo por el cual se solicita**: `GET`
-
-- **Esta es la URL a la que deben acceder**:
-
-  ```js
-  http://192.168.128.23:5010/cursos/all
-  ```
-
 **Ejemplo JSON que recibes**
 
 ```json
@@ -229,7 +220,10 @@ http://192.168.128.23:5010/cursos/all
 
 </details>
 
-### 3. Obtener una sección en especifico (Metodo Objeto)
+<details>
+
+<details>
+<summary><strong>4. Obtener una sección en especifico (Metodo Objeto)</strong></summary>
 
 > Para visualizar todos los videos que tiene una sección en especifico:
 
@@ -247,8 +241,10 @@ http://192.168.128.23:5010/cursos/all
   ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
+</details>
 
-### 4. Reproducir un video
+<details>
+<summary><strong>5. Reproducir un video</strong></summary>
 
 > Para visualizar un video:
 
@@ -268,6 +264,7 @@ http://192.168.128.23:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSec
 ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso`, `numeroDeSeccion` y `nombreDelVideo` por los valores que deseas obtener.**
+</details>
 
 ## Extension que utilizo para visualizar el JSON:
 
