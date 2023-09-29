@@ -83,7 +83,7 @@ http://192.168.128.23:5010/cursos/all
 </details>
 
 <details>
-<summary><strong>2. Obtener un curso en especifico (Metodo Objeto)</strong></summary>
+<summary>2. Obtener un curso en específico (Método Objeto) :warning: Deprecated</summary>
 
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
