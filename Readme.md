@@ -13,11 +13,20 @@
 
 > Recuerda que solo puedes acceder desde la red interna de Campus
 
-#### 1. Obtener los titulos y los nombres para buscar los cursos
+<details>
+<summary>1. Obtener los títulos y los nombres para buscar los cursos</summary>
 
-> Para visualizar todos los cursos que hay disponibles:
+Para visualizar todos los cursos que hay disponibles:
 
 **DETALLES DEL API**
+
+- **Método por el cual se solicita**: `GET`
+
+- **Esta es la URL a la que deben acceder**:
+
+```js
+http://192.168.128.23:5010/cursos/all
+```
 
 - **Metodo por el cual se solicita**: `GET`
 
@@ -33,28 +42,53 @@
 [
   {
     "folder": "docker",
-    "nameCourse": "Docker - Guía práctica de uso para desarrolladores"
+    "nameCourse": "Docker - Guía práctica de uso para desarrolladores",
+    "imagenCourse": "https://import.cdn.thinkific.com/643563/courses/2100309/FJdi8w3ORKSdzhLcV53c_Docker.jpg",
+    "duracion": 49535654
   },
   {
     "folder": "git",
-    "nameCourse": "GIT+GitHub: Todo un sistema de control de versiones de cero"
+    "nameCourse": "GIT+GitHub: Todo un sistema de control de versiones de cero",
+    "imagenCourse": "https://import.cdn.thinkific.com/643563/courses/1870146/idTZJiouTqWbJrtKBloh_git-github.jpg",
+    "duracion": 41102686
+  },
+  {
+    "folder": "javascript",
+    "nameCourse": "JavaScript Moderno: Guía para dominar el lenguaje",
+    "imagenCourse": "https://import.cdn.thinkific.com/643563/courses/1907483/IaFyqRTQCAph7DfFVjuA_Javascript-moderno-refresh1.png",
+    "duracion": 73438818
   },
   {
     "folder": "nodejs",
-    "nameCourse": "Node.Js: De cero a experto"
+    "nameCourse": "Node.Js: De cero a experto",
+    "imagenCourse": "https://import.cdn.thinkific.com/643563/63BJ0OoTdCl8SPMlIOpA_NODE-JS-COVER-CURSO.jpg",
+    "duracion": 85942936
   },
   {
     "folder": "react",
-    "nameCourse": "React: De cero a experto ( Hooks y MERN )"
+    "nameCourse": "React: De cero a experto ( Hooks y MERN )",
+    "imagenCourse": "https://import.cdn.thinkific.com/643563/courses/1901683/3leYeOG2Qcu7PEZ1el4q_react.jpg",
+    "duracion": 179499638
   },
   {
     "folder": "sql",
-    "nameCourse": "SQL de cero: Tu guía práctica con PostgreSQL"
+    "nameCourse": "SQL de cero: Tu guía práctica con PostgreSQL",
+    "imagenCourse": "https://import.cdn.thinkific.com/643563/courses/2347687/yqioXcxTsWUJ7foeQFZl_SQL-COVER-CURSO.jpg",
+    "duracion": 57502789
   }
 ]
 ```
 
-**Observacion**: **Lo que recibes como `folder` es el nombre como puedes buscar el curso y el `nameCourse` es simplemente el titulo**
+**Observacion**:
+
+- `folder` es el nombre como puedes buscar el curso
+- `nameCourse` es simplemente el titulo
+- `imagenCourse` es la imagen que se muestra en la pagina
+- `duracion` es la duracion del curso en milisegundos
+
+**Nota**: Si quieres sacar la duración en minutos solo debes dividir el valor que te da entre 60.000
+
+</details>
 
 #### 2. Obtener un curso en especifico (Metodo Objeto)
 
