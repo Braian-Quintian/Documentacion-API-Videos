@@ -164,7 +164,8 @@ http://192.168.128.23:5010/cursos/all
 
 </details>
 
-#### 2.1. Obtener un curso en especifico (Metodo Array)
+<details>
+<summary><strong>3. Obtener una sección en especifico (Metodo Array)</strong></summary>
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
@@ -226,7 +227,7 @@ http://192.168.128.23:5010/cursos/all
 
 ![Metodo Objeto](./assets//img/GET-seccion-Metodo-Array-Object.png)
 
----
+</details>
 
 ### 3. Obtener una sección en especifico (Metodo Objeto)
 
