@@ -13,7 +13,50 @@
 
 > Recuerda que solo puedes acceder desde la red interna de Campus
 
-#### 1 .Obtener un curso en especifico (Metodo Objeto)
+#### 1. Obtener los titulos y los nombres para buscar los cursos
+
+> Para visualizar todos los cursos que hay disponibles:
+
+**DETALLES DEL API**
+
+- **Metodo por el cual se solicita**: `GET`
+
+- **Esta es la URL a la que deben acceder**:
+
+  ```js
+  http://192.168.128.23:5010/cursos/all
+  ```
+
+**Ejemplo JSON que recibes**
+
+```json
+[
+  {
+    "folder": "docker",
+    "nameCourse": "Docker - Guía práctica de uso para desarrolladores"
+  },
+  {
+    "folder": "git",
+    "nameCourse": "GIT+GitHub: Todo un sistema de control de versiones de cero"
+  },
+  {
+    "folder": "nodejs",
+    "nameCourse": "Node.Js: De cero a experto"
+  },
+  {
+    "folder": "react",
+    "nameCourse": "React: De cero a experto ( Hooks y MERN )"
+  },
+  {
+    "folder": "sql",
+    "nameCourse": "SQL de cero: Tu guía práctica con PostgreSQL"
+  }
+]
+```
+
+**Observacion**: **Lo que recibes como `folder` es el nombre como puedes buscar el curso y el `nameCourse` es simplemente el titulo**
+
+#### 2. Obtener un curso en especifico (Metodo Objeto)
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
@@ -82,11 +125,7 @@
 
 ![Metodo Objeto](./assets//img/GET-seccion-Metodo-Objeto.png)
 
-
-
-
-
-#### 1.1.Obtener un curso en especifico (Metodo Array)
+#### 2.1. Obtener un curso en especifico (Metodo Array)
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
@@ -150,7 +189,7 @@
 
 ---
 
-### 2. Obtener una sección en especifico (Metodo Objeto)
+### 3. Obtener una sección en especifico (Metodo Objeto)
 
 > Para visualizar todos los videos que tiene una sección en especifico:
 
@@ -169,7 +208,7 @@
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
 
-### Reproducir un video
+### 4. Reproducir un video
 
 > Para visualizar un video:
 
