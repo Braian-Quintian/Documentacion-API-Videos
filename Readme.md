@@ -157,7 +157,7 @@ http://192.168.128.23:5010/cursos/all
 </details>
 
 <details>
-<summary><strong>3. Obtener una sección en especifico (Metodo Array)</strong></summary>
+<summary><strong>3. Obtener un curso en especifico (Metodo Array)</strong></summary>
 
 > Para visualizar todas las secciones que tiene un curso en especifico:
 
