@@ -1,7 +1,7 @@
 # API VIDEOS
 
 <details>
-<summary><strong>:warning: **¡NOTICIA IMPORTANTE!** :warning:</strong>strong></summary>
+<summary><strong>:warning: **¡NOTICIA IMPORTANTE!** :warning:</strong></summary>
 
 ### Cambio de Dirección IP
 
