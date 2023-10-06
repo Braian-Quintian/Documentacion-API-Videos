@@ -1,5 +1,17 @@
 # API VIDEOS
 
+<details>
+<summary>:warning: **¡NOTICIA IMPORTANTE!** :warning:</summary>
+
+### Cambio de Dirección IP
+
+- **IP Anterior:** `192.168.128.23`
+- **Nueva IP:** `192.168.110.55`
+
+Este cambio de dirección IP se realizó para mejorar la configuración de red y la accesibilidad del servidor. Asegúrese de actualizar cualquier configuración o referencias relevantes para reflejar esta modificación.
+
+</details>
+
 ## Cursos Disponibles
 
 - react
