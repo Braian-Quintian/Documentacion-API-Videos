@@ -20,6 +20,7 @@ Este cambio de dirección IP se realizó para mejorar la configuración de red y
 - nodejs
 - sql
 - javascript
+- solid
 
 ## Endpoints
 
@@ -194,7 +195,7 @@ http://192.168.110.14:5010/cursos/all
 ```json
 {
   "nameCourse": "React: De cero a experto ( Hooks y MERN )",
-  "videos": [
+  "secciones": [
     {
       "sectionName": "Sección 1: Introducción",
       "videos": [
