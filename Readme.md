@@ -21,6 +21,7 @@ Este cambio de dirección IP se realizó para mejorar la configuración de red y
 - sql
 - javascript
 - solid
+- javaspringboot
 
 ## Endpoints
 
