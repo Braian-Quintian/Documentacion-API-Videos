@@ -5,8 +5,8 @@
 
 ### Cambio de Dirección IP
 
-- **IP Anterior:** `192.168.110.55`
-- **Nueva IP:** `192.168.110.14`
+- **IP Anterior:** `192.168.110.14`
+- **Nueva IP:** `192.168.110.249`
 
 Este cambio de dirección IP se realizó para mejorar la configuración de red y la accesibilidad del servidor. Asegúrese de actualizar cualquier configuración o referencias relevantes para reflejar esta modificación.
 
@@ -39,7 +39,7 @@ Este cambio de dirección IP se realizó para mejorar la configuración de red y
 - **Esta es la URL a la que deben acceder**:
 
 ```js
-http://192.168.110.14:5010/cursos/all
+http://192.168.110.249:5010/cursos/all
 ```
 
 **Ejemplo JSON que recibes**
@@ -112,7 +112,7 @@ http://192.168.110.14:5010/cursos/all
 - **Esta es la URL a la que deben acceder**:
 
   ```js
-  http://192.168.110.14:5010/cursos?course=nombreDelCurso
+  http://192.168.110.249:5010/cursos?course=nombreDelCurso
   ```
 
 **Observacion**: **Debes reemplazar el parametro `nombreDelCurso` por el nombre del curso que deseas obtener.**
@@ -186,7 +186,7 @@ http://192.168.110.14:5010/cursos/all
 - **Esta es la URL a la que deben acceder**:
 
   ```js
-  http://192.168.110.14:5010/cursos/v2?course=nombreDelCurso
+  http://192.168.110.249:5010/cursos/v2?course=nombreDelCurso
   ```
 
 **Observacion**: **Debes reemplazar el parametro `nombreDelCurso` por el nombre del curso que deseas obtener.**
@@ -255,7 +255,7 @@ http://192.168.110.14:5010/cursos/all
 
 - **Esta es la URL a la que deben acceder**:
   ```js
-  http://192.168.110.14:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion
+  http://192.168.110.249.14:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion
   ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
@@ -279,7 +279,7 @@ http://192.168.110.14:5010/cursos/all
 - **Esta es la URL a la que deben acceder**:
 
 ```js
-http://192.168.110.14:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSeccion&video=nombreDelVideo
+http://192.168.110.249:5010/cursos/play?course=nombreDelCurso&seccion=numeroDeSeccion&video=nombreDelVideo
 ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso`, `numeroDeSeccion` y `nombreDelVideo` por los valores que deseas obtener.**
