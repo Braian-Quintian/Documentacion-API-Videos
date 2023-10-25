@@ -255,7 +255,7 @@ http://192.168.110.249:5010/cursos/all
 
 - **Esta es la URL a la que deben acceder**:
   ```js
-  http://192.168.110.249.14:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion
+  http://192.168.110.249:5010/cursos/filter?course=nombreDelCurso&section=numeroDeLaSeccion
   ```
 
 **Observacion:** **Recuerda que debes reemplazar los parametros `nombreDelCurso` y `numeroDeLaSeccion` por los valores que deseas obtener.**
